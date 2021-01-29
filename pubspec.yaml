@@ -1,8 +1,8 @@
 name: attendance_web_viewer
-description: 학생 출석 확인 앱
+description: 학생 출석 확인
 
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

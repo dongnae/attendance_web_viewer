@@ -40,7 +40,7 @@ class WebViewExampleState extends State<WebViewExample> {
   @override
   Widget build(BuildContext context) {
     return WebView(
-      initialUrl: 'http://10.121.149.178:8080/',
+      initialUrl: 'https://dnhs.nlog.dev/',
       javascriptMode: JavascriptMode.unrestricted,
       onWebViewCreated: (WebViewController webViewController) async {
         _controller.complete(webViewController);
